@@ -89,7 +89,7 @@ Demo recording: _TBD_. It will be recorded before teardown.
 
 Each milestone is one pull request, so the pipeline runs against real changes.
 
-- [ ] **M0 Scaffold and PR checks.** Repo structure, lint/test/security scans running and green on a PR.
+- [x] **M0 Scaffold and PR checks.** Repo structure, lint/test/security scans running and green on a PR.
 - [ ] **M1 Bootstrap.** Budget + SNS alert, remote state bucket, GitHub OIDC provider and a least-privilege deploy role. Applied once, locally.
 - [ ] **M2 Deploy pipeline.** Plan as a PR comment, apply on merge behind an approval gate.
 - [ ] **M3 Ingest and rules.** Private encrypted S3 bucket, triage Lambda, DynamoDB, rules engine with unit tests against synthetic `.eml` samples.
