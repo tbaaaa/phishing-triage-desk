@@ -1,0 +1,8 @@
+From: "Dental Supplies" <news@supplies.example.com>
+To: office@practice.example.com
+Subject: November product update
+Authentication-Results: mx.practice.example.com; spf=pass smtp.mailfrom=supplies.example.com; dkim=pass; dmarc=pass header.from=supplies.example.com
+MIME-Version: 1.0
+Content-Type: text/html; charset="utf-8"
+
+<p>New gloves are in stock. See the catalogue at <a href="https://www.supplies.example.com/catalogue">www.supplies.example.com/catalogue</a>.</p>

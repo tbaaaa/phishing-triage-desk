@@ -1,0 +1,18 @@
+From: "Accounts Team" <billing@supplier.example.com>
+Reply-To: payments@supplier-billing.example.net
+To: office@practice.example.com
+Subject: Overdue invoice 4471 - action required
+Authentication-Results: mx.practice.example.com; spf=fail smtp.mailfrom=supplier.example.com; dkim=none; dmarc=fail header.from=supplier.example.com
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="BOUNDARY"
+
+--BOUNDARY
+Content-Type: text/html; charset="utf-8"
+
+<p>Your invoice is overdue. Pay now at <a href="http://198.51.100.23/pay">www.supplier.example.com/pay</a>.</p>
+--BOUNDARY
+Content-Type: application/octet-stream
+Content-Disposition: attachment; filename="invoice_4471.html"
+
+PGh0bWw+PC9odG1sPg==
+--BOUNDARY--
